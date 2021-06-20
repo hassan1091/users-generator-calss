@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
 public class Issue {
-    String reporter; // who gives us the issue
-    String title;
-    String date;
-    String priorities;
-    String description;
-    int likesCount;
-    boolean isFixed;
+    private String reporter; // who gives us the issue
+    private String title;
+    private String date;
+    private String priorities;
+    private String description;
+    private int likesCount;
+    private boolean isFixed;
 
 
     public Issue(String reporter, String title, String date, String priorities, String description, int likesCount, boolean isFixed) {
